@@ -17,18 +17,18 @@ trie.printTrie()      #printing the entire Trie structure
 ###Code Profiling
 ######individual function timings
 ```
-python Timings/timings.py
+python timings/Timings.py
 ```
 >Run it from the parent directory Trie
 
 ######detailed function timings
 ```
-python Timings/profiling.py
+python timings/Profiling.py
 ```
 >Run it from the parent directory Trie
 
 
 ###Running the Tests
 ```
-python tests/testcases.py
+python tests/Testcases.py
 ```
