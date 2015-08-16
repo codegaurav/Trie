@@ -14,6 +14,13 @@ trie.delete("mumbai") #deleting from Trie
 trie.printTrie()      #printing the entire Trie structure
 ```
 
+#####Lookup
+To check if the word exists in the Trie or not
+```python
+trie._lookup("mumbai",trie.root)
+```
+>Return True or False
+
 ###Code Profiling
 ######individual function timings
 ```
@@ -31,4 +38,9 @@ python timings/Profiling.py
 ###Running the Tests
 ```
 python tests/Testcases.py
+```
+
+>For verbosity
+```
+python tests/Testcases.py -v
 ```
