@@ -19,7 +19,7 @@ To check if the word exists in the Trie or not
 ```python
 trie._lookup("mumbai",trie.root)
 ```
->Return True or False
+>Returns True or False
 
 ###Code Profiling
 ######individual function timings
